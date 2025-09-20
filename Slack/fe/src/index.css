@@ -1,0 +1,117 @@
+*{
+  margin:0px !important
+}
+.circle{
+  display: inline-block;
+    border-color: #451245;
+    border-style: solid;
+    border-radius: 99999px;
+    border-width: 4px;
+    border-bottom-color: var(--chakra-colors-transparent);
+    border-left-color: var(--chakra-colors-transparent);
+    -webkit-animation: animation-b7n1on 0.45s linear infinite;
+    animation: animation-b7n1on 1.0s linear infinite;
+    width: 150px;
+    height: 150px;
+    --spinner-size: 4.5rem;
+    /* border-left: 0;
+    border-right: 0;
+    border-top: 2px solid #451245;
+    border-bottom: 2px solid #451245; */
+    position: relative;
+}
+@keyframes animation-b7n1on {
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.cir{
+  top: 10px;
+  left: 10px;
+  display: inline-block;
+    border-color: #451252;
+    border-style: solid;
+    border-radius: 99999px;
+    border-width: 2px;
+    border-bottom-color: var(--chakra-colors-transparent);
+    border-left-color: var(--chakra-colors-transparent);
+    -webkit-animation: animation-b7n1on 0.45s linear infinite;
+    animation: animation-b7n1on 2.9s linear infinite;
+    width: 120px;
+    height: 120px;
+    --spinner-size: 1.5rem;
+    position: relative;
+}
+
+.big{
+  padding-block:  10px;
+  padding-inline: 10px;
+  display: inline-block;
+    border-color: #451252;
+    border-style: solid;
+    border-radius: 99999px;
+    border-width: 1px;
+    border-bottom-color: var(--chakra-colors-transparent);
+    border-left-color: var(--chakra-colors-transparent);
+    -webkit-animation: animation-b7n1on 0.45s linear infinite;
+    animation: animation-b7n1on 3.2s linear infinite;
+    width: 170px;
+    height: 170px;
+    --spinner-size: 1.5rem;
+}
+
+.loading{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: text 10s linear infinite;
+}
+@keyframes text {
+  0%{
+    color: rgb(158, 235, 122);
+  }
+  15%{
+    color: #8660c4;
+  }
+  30%{
+    color: rgb(140, 165, 99);
+  }
+  45%{
+    color: blue;
+  }
+  70%{
+    color: aqua;
+  }
+  85%{
+    color: red;
+  }
+  100%{
+    color: greenyellow;
+  }
+}
+
+
+
+/* @keyframes  animation-b7n1on {
+   0%{
+    border-color:#451252;
+  }
+   20%{
+    border-color:#944ba7;
+  }
+   40%{
+    border-color:#d43b95;
+  }
+   60%{
+    border-color:#6731be;
+  }
+   80%{
+    border-color:#37636e;
+  }
+   100%{
+    border-color:#5821af;
+  }
+} */
+
